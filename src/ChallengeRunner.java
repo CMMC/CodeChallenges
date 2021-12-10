@@ -11,5 +11,23 @@ public class ChallengeRunner {
 
         input = new int[]{5, 2, 3, 1, 4, 0};
         System.out.println( MissingNumberChallenge.getMissingNumber(input) );
+
+        String palindromeInput = "racecar";
+        if(IsPalindrome.isPalindrome(palindromeInput))
+            System.out.println(palindromeInput + " is a palindrome");
+        else
+            System.out.println(palindromeInput + " is not a palindrome");
+
+        palindromeInput = "boat";
+        if(IsPalindrome.isPalindrome(palindromeInput))
+            System.out.println(palindromeInput + " is a palindrome");
+        else
+            System.out.println(palindromeInput + " is not a palindrome");
+
+        palindromeInput = "abccba";
+        if(IsPalindrome.isPalindrome(palindromeInput))
+            System.out.println(palindromeInput + " is a palindrome");
+        else
+            System.out.println(palindromeInput + " is not a palindrome");
     }
 }
